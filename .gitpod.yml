@@ -1,0 +1,6 @@
+tasks:
+  - name: Test 
+    command: echo $DB_HOST and $DB_USER
+    env:
+      DB_HOST: localhost:3306
+      DB_USER: readOnlyUser
